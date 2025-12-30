@@ -32,7 +32,7 @@ type userGitcode struct {
 var _ Provider = (*GitcodeProvider)(nil)
 
 const (
-	gitcodeProviderName = "GitCode"
+	gitcodeProviderName = "AtomGit"
 	gitcodeDefaultScope = "all_user"
 )
 
